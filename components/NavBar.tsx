@@ -4,6 +4,7 @@ import cn from 'classnames';
 import { faBars } from '@fortawesome/free-solid-svg-icons';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { useRouter } from 'next/router';
+import Image from 'next/image';
 import styles from './NavBar.module.css';
 
 interface NavItemProps {
@@ -32,8 +33,9 @@ const NavBar: React.FunctionComponent = () => {
 
     return (
         <div className={styles.container}>
-            <div className={styles.title}>
-                <Link href={'/'}>Cryptography At UMich</Link>
+            <div className={styles.logoContainer}>
+                <img className={styles.logo} src={'/assets/logo.svg'} />
+                <span>Crypto At UMich</span>
             </div>
             <div onClick={() => setOpen(!open)} className={styles.hamburger}>
                 <FontAwesomeIcon icon={faBars} />

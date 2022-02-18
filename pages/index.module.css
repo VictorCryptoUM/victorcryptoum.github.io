@@ -1,4 +1,25 @@
-.comingSoon {
-    width: 100%;
+.content {
+    /*
+    background: #00274c;
+    color: #f7d147;
+   */
+    padding: 20px 50px;
+    margin: 0 auto;
+    height: 100%;
+    max-width: 900px;
+}
+
+.title {
     text-align: center;
+}
+
+.info {
+    text-align: justify;
+    line-height: 28px;
+}
+
+@media only screen and (max-width: 600px) {
+    .info {
+        text-align: unset;
+    }
 }

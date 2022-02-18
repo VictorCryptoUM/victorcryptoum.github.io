@@ -6,13 +6,25 @@
     align-items: center;
     position: relative;
     border-bottom: 1px solid #e1e1e1;
+    background: white;
 }
 
-.title {
-    padding-left: 30px;
+.logoContainer {
+    padding: 10px 30px;
     user-select: none;
     font-weight: bold;
-    font-size: 20px;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    font-size: 23px;
+}
+
+.logoContainer span {
+    padding-left: 10px;
+}
+
+.logo {
+    height: 100%;
 }
 
 .nav {
@@ -33,6 +45,8 @@
 
 .item {
     padding: 0 10px;
+    font-size: 17px;
+    font-weight: 500;
 }
 
 .item:hover,
@@ -54,6 +68,11 @@
         text-align: center;
         padding-right: 0;
         background: white;
+    }
+
+    .logoContainer {
+        font-size: 15px;
+        text-align: center;
     }
 
     .navActive {
