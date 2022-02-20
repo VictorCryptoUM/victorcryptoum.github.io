@@ -35,13 +35,15 @@ const NavBar: React.FunctionComponent = () => {
         <div className={styles.container}>
             <div className={styles.logoContainer}>
                 <img className={styles.logo} src={'/assets/logo.svg'} />
-                <span>Crypto At UMich</span>
+                <span>Go Blue Crypto</span>
             </div>
             <div onClick={() => setOpen(!open)} className={styles.hamburger}>
                 <FontAwesomeIcon icon={faBars} />
             </div>
             <nav className={cn(styles.nav, { [styles.navActive]: open })}>
                 <NavItem page={'/'}>Home</NavItem>
+                <NavItem page={'/members'}>Members</NavItem>
+                <NavItem page={'/about'}>About</NavItem>
             </nav>
         </div>
     );
