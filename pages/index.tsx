@@ -9,14 +9,14 @@ const Home: NextPage = () => {
     return (
         <Layout>
             <Head>
-                <title>Home - Go Blue Crypto</title>
+                <title>Home / Victor Crypto</title>
                 <meta name="description" content="Home" />
             </Head>
             <div className={styles.container}>
                 <div className={styles.content}>
-                    <h1 className={styles.title}>Go Blue Crypto</h1>
+                    <h1 className={styles.title}>Victor Crypto</h1>
                     <p className={styles.info}>
-                        Go Blue Crypto is the cryptography club at the
+                        Victor Crypto is the cryptography club at the
                         University of Michigan. We host meetings, round table
                         discussions, and more on both primitive and applied
                         cryptography as well as privacy topics. The club is
