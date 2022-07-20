@@ -17,7 +17,7 @@ const Home: NextPage = () => {
                 <div className={styles.content}>
                     <h1 className={styles.title}>VictorCrypto Crypto</h1>
                     <p className={styles.info}>
-                        VictorCrypto Crypto is the cryptography club at the
+                        VictorCrypto is the cryptography club at the
                         University of Michigan. We host meetings, round table
                         discussions, and more on both primitive and applied
                         cryptography as well as privacy topics. The club is
