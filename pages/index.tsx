@@ -4,30 +4,30 @@ import Layout from '../components/Layout';
 import styles from './index.module.css';
 import React from 'react';
 import Button from '../components/Utility/Button';
+import Link from "next/link";
 
 const Home: NextPage = () => {
     return (
         <Layout>
             <Head>
-                <title>Home - Go Blue Crypto</title>
+                <title>Home - VictorCrypto</title>
                 <meta name="description" content="Home" />
             </Head>
             <div className={styles.container}>
                 <div className={styles.content}>
-                    <h1 className={styles.title}>Go Blue Crypto</h1>
+                    <h1 className={styles.title}>VictorCrypto Crypto</h1>
                     <p className={styles.info}>
-                        Go Blue Crypto is the cryptography club at the
+                        VictorCrypto Crypto is the cryptography club at the
                         University of Michigan. We host meetings, round table
                         discussions, and more on both primitive and applied
                         cryptography as well as privacy topics. The club is
-                        composed of students, alumni, and staff who are focused
-                        on learning and using cryptography. Morals and ethics
-                        are fundamental part of cryptography and what we do.
+                        composed of students and staff who are focused
+                        on learning and using cryptography.
                     </p>
                     <div className={styles.buttons}>
-                        <Button className={styles.button}>About</Button>
-                        <Button className={styles.button}>Members</Button>
-                        <Button className={styles.button}>Contact</Button>
+                        <Link href={"/about"} passHref><Button className={styles.button}>About</Button></Link>
+                        <Link href={"/members"} passHref><Button className={styles.button}>Members</Button></Link>
+                        <Link href={"/contact"} passHref><Button className={styles.button}>Contact</Button></Link>
                     </div>
                 </div>
             </div>

@@ -1,0 +1,18 @@
+.container {
+    padding: 20px 50px;
+    margin: 0 auto;
+    height: 100%;
+    background: #013d77;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    overflow: auto;
+}
+
+.content {
+    max-width: 600px;
+    margin: auto;
+    font-size: 30px;
+}
