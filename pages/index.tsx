@@ -15,7 +15,7 @@ const Home: NextPage = () => {
             </Head>
             <div className={styles.container}>
                 <div className={styles.content}>
-                    <h1 className={styles.title}>VictorCrypto Crypto</h1>
+                    <h1 className={styles.title}>VictorCrypto</h1>
                     <p className={styles.info}>
                         VictorCrypto is the cryptography club at the
                         University of Michigan. We host meetings, round table
