@@ -40,4 +40,8 @@
     .button {
         margin: 10px 0;
     }
+
+    .content p {
+        text-align: center;
+    }
 }
