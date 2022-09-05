@@ -33,8 +33,10 @@ const NavBar: React.FunctionComponent = () => {
     return (
         <div className={styles.container}>
             <div className={styles.logoContainer}>
-                <img className={styles.logo} src={'/assets/logo.svg'} />
-                <span>VictorCrypto</span>
+                <a
+                    href={"/"}>
+                <img className={styles.logo} src={'/assets/logo.svg'}/></a>
+                    <span>VictorCrypto</span>
             </div>
             <div onClick={() => setOpen(!open)} className={styles.hamburger}>
                 <FontAwesomeIcon icon={faBars} />
