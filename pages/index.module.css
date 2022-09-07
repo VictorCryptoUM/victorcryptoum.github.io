@@ -16,6 +16,11 @@
     margin: auto;
 }
 
+.contact{
+    max-width: 800px;
+    margin: auto;
+}
+
 .content p {
     text-align: justify;
     line-height: 35px;

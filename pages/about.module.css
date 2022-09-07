@@ -16,3 +16,8 @@
     margin: auto;
     font-size: 30px;
 }
+
+.image {
+    width: 100%;
+    max-width: 300px;
+}
