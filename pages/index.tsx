@@ -15,7 +15,6 @@ const Home: NextPage = () => {
             </Head>
             <div className={styles.container}>
                 <div className={styles.content}>
-                    <img src={"assets/logo.svg"} style={{height: 300}}></img>
                     <h1 className={styles.title}>VictorCrypto</h1>
                     <p className={styles.info}>
                         VictorCrypto is the cryptography club at the
@@ -32,14 +31,11 @@ const Home: NextPage = () => {
                     <div style={{marginBottom: 50}}>
                         <h3 className={styles.title} style={{marginTop: 60}}>Get Involved</h3>
                         <p className={styles.contact}>Our first meeting will be held on Thursday, 9/22 in Room 2306,
-                            Mason Hall from 6:00PM - 7:00PM. Fill out our
-                            interest form to be notified of future meetings and events.</p>
+                            Mason Hall from 6:00PM - 7:00PM. Join our
+                            Discord to be notified of future meetings and events.</p>
                         <div className={styles.buttons}>
-                            <Link
-                                href={"https://docs.google.com/forms/u/1/d/e/1FAIpQLScWOMJq70lezh4zVajD9T_jKBVn4xHe4_8VhCE-6IPHwpgtnw/viewform?usp=send_form"}>
-                                <Button className={styles.button}>Interest Form</Button></Link>
-                            <Link href={"https://discord.gg/8veVfTF8EQ"}>
-                                <Button className={styles.button}>Discord</Button></Link>
+                            <a target={"_blank"} href={" https://discord.gg/Htb4GeqCyp"} rel="noreferrer">
+                                <Button className={styles.button}>Discord</Button></a>
                         </div>
                     </div>
                 </div>
