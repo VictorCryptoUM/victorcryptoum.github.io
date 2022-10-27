@@ -30,9 +30,8 @@ const Home: NextPage = () => {
                     </div>
                     <div style={{marginBottom: 50}}>
                         <h3 className={styles.title} style={{marginTop: 60}}>Get Involved</h3>
-                        <p className={styles.contact}>Our first meeting will be held on Thursday, 9/22 in Room 2306,
-                            Mason Hall from 6:00PM - 7:00PM. Join our
-                            Discord to be notified of future meetings and events.</p>
+                        <p className={styles.contact}>Join our
+                            Discord to be notified of meeting and event details. Meetings usually occur each Thursday evening in Mason Hall.</p>
                         <div className={styles.buttons}>
                             <a target={"_blank"} href={" https://discord.gg/Htb4GeqCyp"} rel="noreferrer">
                                 <Button className={styles.button}>Discord</Button></a>
